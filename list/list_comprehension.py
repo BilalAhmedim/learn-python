@@ -5,6 +5,11 @@ print(list)
 # for value in range(1, 11) <---- normal loop
 # add all the value into the storage variable with operation value(**2) like list.apppend(value**2)
 
+
+# list Comprehension in string
+array = [str(x) for x in range(11)]
+print(array)
+
 # genrate 1 to 20 using list comprehension
 list1 = [value for value in range(1,21)]
 print(list1)
